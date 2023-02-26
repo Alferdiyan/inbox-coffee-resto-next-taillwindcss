@@ -4,6 +4,7 @@ import OurMenu from '@/sections/menu.jsx';
 import Dessert from '@/sections/dessert.jsx';
 import About from '@/sections/about.jsx';
 import Footer from '@/sections/footer.jsx';
+import Team from '@/sections/team.jsx';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Homepage />
       <OurMenu />
       <Dessert />
+      <Team />
       <About />
       <Footer />
     </>
