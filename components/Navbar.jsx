@@ -38,13 +38,13 @@ const Navbar = () => {
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
             </svg>
           </button>
-          <div className={`${open ? 'block' : 'hidden'} bg-white absolute right-0 mr-10 top-0 mt-4 py-1 rounded-lg w-56 overflow-hidden`}>
+          <ul className={`${open ? 'block' : 'hidden'} bg-white absolute right-0 mr-10 top-0 mt-4 py-1 rounded-lg w-56 overflow-hidden`}>
             <ResponsiveNavLink href="#">Home</ResponsiveNavLink>
             <ResponsiveNavLink href="#">Our menu</ResponsiveNavLink>
             <ResponsiveNavLink href="#">Dessert</ResponsiveNavLink>
             <ResponsiveNavLink href="#">About Us</ResponsiveNavLink>
             <ResponsiveNavLink href="#">Contact</ResponsiveNavLink>
-          </div>
+          </ul>
         </div>
       </div>
       {/* Mobile Nav */}
