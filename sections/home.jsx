@@ -14,7 +14,7 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center text-center  text-white">
           <h1 className="text-3xl md:text-5xl">SERVE YOU BETTER TASTE OF COFFEE</h1>
           <p className="text-xl md:text-2xl mt-2 mb-10 font-md tracking-wider">fresh place to drink coffee</p>
-          <Link href="#menu" scroll={false} className="bg-gray-800 px-[2rem] py-[8px] rounded-xl scroll-smoth">
+          <Link href="#menu" scroll={false} className="bg-green-800 px-[2rem] py-[8px] rounded-xl scroll-smoth">
             <p className="font-semibold tracking-wider">MENU</p>
           </Link>
         </div>

@@ -12,7 +12,7 @@ const About = () => {
           </div>
 
           <div className="md:absolute md:right-0 md:w-[40vw] bg-[#333131] p-4">
-            <h1 className="p-3 text-6xl font-bold text-white opacity-10">Inbox Coffee Resto</h1>
+            <h1 className="p-3 text-6xl font-bold text-green-100 opacity-10">Inbox Coffee Resto</h1>
             <div className="flex justify-center">
               <Image src="/image/coffee-shop.jpg" alt="coffee-shop" width={250} height={250} className="place-content-center md:hidden rounded-xl" />
             </div>
