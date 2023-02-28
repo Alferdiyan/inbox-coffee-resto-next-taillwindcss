@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="hidden md:flex md:justify-between items-center">
         {/* logo */}
         <div>
-          <Image src="/logo.png" alt="logo" width={70} height={70} />
+          <Image src="/logo1.svg" alt="logo" width={90} height={70} />
         </div>
         {/* Nav Mneu */}
         <ul className="md:flex gap-4 text-xs md:text-lg">
@@ -29,7 +29,7 @@ const Navbar = () => {
       {/* Mobile Nav */}
       <div className="flex justify-between items-center md:hidden mb-10">
         <div>
-          <Image src="/logo.png" alt="logo" width={50} height={50} />
+          <Image src="/logo1.svg" alt="logo" width={50} height={50} />
         </div>
         <div>
           <div onClick={() => setOpen(false)} className={`${open ? 'block' : 'hidden'} bg-transparent absolute w-full h-full inset-0`}></div>
