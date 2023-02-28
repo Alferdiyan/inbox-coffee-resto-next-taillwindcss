@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Inbox Coffee Resto | Tempat Adem Haraga Adem</title>
-        <meta name="description" content="freshcoffee website" />
+        <meta name="description" content="inbox Coffee & Resto" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
